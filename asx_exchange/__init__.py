@@ -1,3 +1,3 @@
-from .base import BaseClass, base_function
+from paper_trader.logging.logger import init_logger
 
-__all__ = ["BaseClass", "base_function"]
+init_logger('asx_exchange')
